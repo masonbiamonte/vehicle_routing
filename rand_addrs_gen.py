@@ -1,10 +1,3 @@
-import glob
-import googlemaps
-import numpy as np
-import os
-import pandas as pd
-import sys
-
 from utils import generate_random_addrs
 
 hq_file = 'rothko_hq.csv'

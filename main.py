@@ -1,10 +1,6 @@
 import glob
-import googlemaps
 import numpy as np
-import os
 import pandas as pd
-import sys
-
 from utils import (generate_coords_from_addrs,
                    compute_and_store_dist_mat,
                    google_OR_tools_mTSP_soln
@@ -48,9 +44,13 @@ def main():
     # non-max stops columns with empty strings
     out_addrs = ['']*num_vehicles
     for idx in range(num_vehicles):
+
         out_addrs[idx] = list(np.take(addrs, m_tsp[idx]))
+
         if num_stops[idx] != max_stops:
+
             out_addrs[idx].extend(['']*(max_stops-num_stops[idx]))
+            
         df_out[cols[idx]] = out_addrs[idx]
 
     vehicle_routing_solution = 'vehicle_routing_solution.csv'

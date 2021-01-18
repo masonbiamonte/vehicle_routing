@@ -1,16 +1,9 @@
-import geocoder
 import glob
 import googlemaps
-import json
-import math as m
 import numpy as np
 import os
 import pandas as pd
-import pprint
-import requests
 import sys
-import tsp
-
 from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
 
