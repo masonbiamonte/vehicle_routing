@@ -11,4 +11,4 @@
 - [Create](https://developers.google.com/maps/documentation/distance-matrix/get-api-key?hl=en_US) an API key for the Distance Matrix API and save it somewhere.
 - [Create](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) an environment variable for this API key. In the code, the environment variable name for this key is `GMAPS_KEY`.
 
-- Save a CSV file containing your addresses in a single column with header 'Address' in the working directory. In the `main` method in `main.py` change line 18 to  `addrs_file = 'your_csv_file_name.csv'`. 
+- Save a CSV file containing your addresses in a single column with header 'Address' in the working directory. In the `main` method in `main.py` change line 14 to  `addrs_file = 'your_csv_file_name.csv'`. 
