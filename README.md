@@ -1,6 +1,6 @@
 # Python implementation of solution to the multiple traveling salesperson problem using Google's Operations Research tools library (OR-Tools)
 
-- **Functionality**: given a list of physical addresses in CSV format, this code finds an approximate solution to the multiple traveling salesperson problem (mTSP) with a user-specified number of salespeople using. The approximate solution is obtained using the vehicle routing  methods in Google's OR-Tools library. The output of the code is a CSV file containing the optimal routes for each salesperson. It uses the Google Maps API to compute the distance matrix using real-time traffic information. 
+- **Functionality**: given a list of physical addresses in CSV format, this code finds an approximate solution to the multiple traveling salesperson problem (mTSP) with a user-specified number of salespeople. The approximate solution is obtained using the vehicle routing  methods in Google's OR-Tools library. The output of the code is a CSV file containing the optimal routes for each salesperson. It uses the Google Maps API to compute the distance matrix using real-time traffic information. 
 
 - [Google OR-Tools Vehicle Routing](https://developers.google.com/optimization/routing/vrp)
 
