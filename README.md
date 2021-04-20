@@ -9,7 +9,7 @@
 
 - If you have never registered for an API key on the Google Maps Platform, follow [this](https://developers.google.com/maps/gmp-get-started) getting started guide. 
 - [Create](https://developers.google.com/maps/documentation/distance-matrix/get-api-key?hl=en_US) an API key for the Distance Matrix API and save it somewhere on your local machine.
-- [Create](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) an environment variable for this API key. In the code, the environment variable name for this key is `GMAPS_KEY`.
+- [Create](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) an environment variable for this API key. In the code, the environment variable name for this key is `GMAPS_KEY`. This step is not necessary if you never share the code file with anyone that should not see your API key.
 
 - Save a CSV file containing your addresses in a single column with header 'Address' in the working directory. In the `main` method in `main.py` change line 14 to  `addrs_file = 'your_csv_file_name.csv'`. 
 
